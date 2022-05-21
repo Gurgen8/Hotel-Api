@@ -1,0 +1,42 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://image.shutterstock.com/z/stock-photo-businessman-working-in-office-pressing-button-on-virtual-screen-and-selecting-administration-598372163.jpg');
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.error{
+  color:red;
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: underline;
+}
+.lInput{
+  height: 30px;
+  padding: 10px;
+}
+
+.lButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.lButton:disabled{
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
